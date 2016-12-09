@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7728CB32-A2EC-4304-9982-7B0FD9332D50}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Consolidated_Challenges</RootNamespace>
+    <AssemblyName>Consolidated_Challenges</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Challenge 026-050\Challenge026.cs" />
+    <Compile Include="Challenge 026-050\Challenge027.cs" />
+    <Compile Include="Challenge 026-050\Challenge028.cs" />
+    <Compile Include="Challenge 026-050\Challenge029.cs" />
+    <Compile Include="Challenge 026-050\Challenge030.cs" />
+    <Compile Include="Challenge 026-050\Challenge032.cs" />
+    <Compile Include="Challenge 026-050\Challenge033.cs" />
+    <Compile Include="Challenge 026-050\Challenge034.cs" />
+    <Compile Include="Challenge 026-050\Challenge035.cs" />
+    <Compile Include="Challenge 026-050\Challenge036.cs" />
+    <Compile Include="Challenge 026-050\Challenge037.cs" />
+    <Compile Include="Challenge 026-050\Challenge039.cs" />
+    <Compile Include="Challenge 026-050\Challenge040.cs" />
+    <Compile Include="Challenge 026-050\Challenge041.cs" />
+    <Compile Include="Challenge 026-050\Challenge042.cs" />
+    <Compile Include="Challenge 026-050\Challenge044.cs" />
+    <Compile Include="Challenge 026-050\Challenge045.cs" />
+    <Compile Include="Challenge 026-050\Challenge046.cs" />
+    <Compile Include="Challenge 026-050\Challenge047.cs" />
+    <Compile Include="Challenge 026-050\Challenge048.cs" />
+    <Compile Include="Challenge 026-050\Challenge049.cs" />
+    <Compile Include="Challenge 026-050\Challenge050.cs" />
+    <Compile Include="Challenge 001-025\Challenge021.cs" />
+    <Compile Include="Challenge 001-025\Challenge023.cs" />
+    <Compile Include="Challenge 001-025\Challenge025.cs" />
+    <Compile Include="Challenge 001-025\Challenge016.cs" />
+    <Compile Include="Challenge 001-025\Challenge017.cs" />
+    <Compile Include="Challenge 001-025\Challenge018.cs" />
+    <Compile Include="Challenge 001-025\Challenge019.cs" />
+    <Compile Include="Challenge 001-025\Challenge020.cs" />
+    <Compile Include="Challenge 001-025\Challenge015.cs" />
+    <Compile Include="Challenge 001-025\Challenge014.cs" />
+    <Compile Include="Challenge 001-025\Challenge013.cs" />
+    <Compile Include="Challenge 001-025\Challenge012.cs" />
+    <Compile Include="Challenge 001-025\Challenge011.cs" />
+    <Compile Include="Challenge 001-025\Challenge009.cs" />
+    <Compile Include="Challenge 001-025\Challenge007.cs" />
+    <Compile Include="Challenge 001-025\Challenge001.cs" />
+    <Compile Include="Challenge 001-025\Challenge002.cs" />
+    <Compile Include="Challenge 001-025\Challenge003.cs" />
+    <Compile Include="Challenge 001-025\Challenge004.cs" />
+    <Compile Include="Challenge 001-025\Challenge005.cs" />
+    <Compile Include="Challenge 001-025\Challenge006.cs" />
+    <Compile Include="Challenge 001-025\Challenge008.cs" />
+    <Compile Include="Challenge 001-025\Challenge010.cs" />
+    <Compile Include="Challenge 051-075\Challenge052.cs" />
+    <Compile Include="Challenge 051-075\Challenge053.cs" />
+    <Compile Include="Challenge 051-075\Challenge054.cs" />
+    <Compile Include="Challenge 051-075\Challenge055.cs" />
+    <Compile Include="Challenge 051-075\Challenge056.cs" />
+    <Compile Include="Challenge 051-075\Challenge057.cs" />
+    <Compile Include="Challenge 051-075\Challenge059.cs" />
+    <Compile Include="Challenge 051-075\Challenge060.cs" />
+    <Compile Include="Challenge 051-075\Challenge061.cs" />
+    <Compile Include="Challenge 051-075\Challenge062.cs" />
+    <Compile Include="Challenge 051-075\Challenge063.cs" />
+    <Compile Include="Challenge 051-075\Challenge064.cs" />
+    <Compile Include="Challenge 051-075\Challenge065.cs" />
+    <Compile Include="Challenge 201-225\Challenge218.cs" />
+    <Compile Include="Challenge 201-225\Challenge219.cs" />
+    <Compile Include="Challenge 201-225\Challenge220.cs" />
+    <Compile Include="Challenge 201-225\Challenge221.cs" />
+    <Compile Include="Challenge 201-225\Challenge224.cs" />
+    <Compile Include="Challenge 226-250\Challenge228.cs" />
+    <Compile Include="Challenge 226-250\Challenge229.cs" />
+    <Compile Include="Challenge 226-250\Challenge230.cs" />
+    <Compile Include="Challenge 226-250\Challenge231.cs" />
+    <Compile Include="Challenge 226-250\Challenge232.cs" />
+    <Compile Include="Challenge 226-250\Challenge234.cs" />
+    <Compile Include="Challenge 226-250\Challenge235.cs" />
+    <Compile Include="Challenge 226-250\Challenge236.cs" />
+    <Compile Include="Challenge 226-250\Challenge237.cs" />
+    <Compile Include="Challenge 226-250\Challenge238.cs" />
+    <Compile Include="Challenge 226-250\Challenge239.cs" />
+    <Compile Include="Challenge 226-250\Challenge240.cs" />
+    <Compile Include="Challenge 226-250\Challenge243.cs" />
+    <Compile Include="Challenge 226-250\Challenge245.cs" />
+    <Compile Include="Challenge 251-275\Challenge271.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
